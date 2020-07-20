@@ -1,0 +1,174 @@
+/* font-family: 'Raleway', sans-serif;
+
+font-family: 'Roboto', sans-serif; */
+/* index */
+.logo{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #212121;
+    text-decoration: none;
+    }
+.web{
+    color: #2196F3;
+}
+.studio{
+    color: #FFFFFF;
+}
+.list{
+    list-style: none;
+}
+.nav-link{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #212121;
+    text-decoration: none;
+}
+
+.nav-address{
+    color: #757575;
+}
+.nav-link:hover,
+.nav-link:focus,
+.nav-address:hover,
+.nav-address:focus{
+    color: #2196F3;
+}
+.baner{
+    background: #E5E5E5;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+.baner-btn{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.baner-btn{
+    background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+}
+.baner-menu,
+.whatwedo-menu,
+.footer-nav{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    color: #212121;
+    text-transform: uppercase;
+}
+.baner-menu-text{
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+.whatwedo,
+.comrade,
+.ourclients{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.whatwedo-menu{
+    color: #FFFFFF;
+    
+    background: grey;
+}
+.comrade-menu,
+.comrade-menu-list{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.comrade-menu-list{
+    color: #757575;
+}
+.ourclients-list{
+    text-decoration: none;
+}
+
+.footer{
+    background: #2F303A;
+}
+.footer-contacts,
+.footer-address{
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.footer-address{
+    color: rgba(255, 255, 255, 0.6);
+}
+.footer-nav{
+    color: #FFFFFF;
+}
+/* portfolio */
+.portfolio-btn{
+    background: #F5F4FA;
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.625;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.portfolio-btn:hover,
+.portfolio-btn:focus{
+    background: #2196F3;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 3px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    color: #FFFFFF;
+}
+.portfolio-text{
+    font-family: 'Roboto', sans-serif;
+font-weight: bold;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: #212121;
+}
+.portfolio-text-small{
+    font-family: 'Roboto', sans-serif;
+font-weight: normal;
+font-size: 16px;
+line-height: 1.875;
+letter-spacing: 0.03em;
+color: #757575;
+}
+.portfolio-notebook:hover::after{
+    content: attr(data-title);
+}
